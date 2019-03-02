@@ -1,0 +1,144 @@
+{
+  "id": {
+    "providerName": "admin",
+    "apiName": "WorldBank",
+    "version": "1.0.0"
+  },
+  "uuid": "49f5d265-0962-4a3a-bbc4-8c01a5b720f8",
+  "type": "HTTP",
+  "context": "/wb/1.0.0",
+  "contextTemplate": "/wb/{version}",
+  "tags": [],
+  "documents": [],
+  "lastUpdated": "Mar 1, 2019 8:42:29 PM",
+  "availableTiers": [
+    {
+      "name": "Bronze",
+      "displayName": "Bronze",
+      "description": "Allows 1000 requests per minute",
+      "requestsPerMin": 1000,
+      "requestCount": 1000,
+      "unitTime": 1,
+      "timeUnit": "min",
+      "tierPlan": "FREE",
+      "stopOnQuotaReached": true
+    },
+    {
+      "name": "Gold",
+      "displayName": "Gold",
+      "description": "Allows 5000 requests per minute",
+      "requestsPerMin": 5000,
+      "requestCount": 5000,
+      "unitTime": 1,
+      "timeUnit": "min",
+      "tierPlan": "FREE",
+      "stopOnQuotaReached": true
+    },
+    {
+      "name": "Silver",
+      "displayName": "Silver",
+      "description": "Allows 2000 requests per minute",
+      "requestsPerMin": 2000,
+      "requestCount": 2000,
+      "unitTime": 1,
+      "timeUnit": "min",
+      "tierPlan": "FREE",
+      "stopOnQuotaReached": true
+    },
+    {
+      "name": "Unlimited",
+      "displayName": "Unlimited",
+      "description": "Allows unlimited requests",
+      "requestsPerMin": 2147483647,
+      "requestCount": 2147483647,
+      "unitTime": 0,
+      "timeUnit": "ms",
+      "tierPlan": "FREE",
+      "stopOnQuotaReached": true
+    }
+  ],
+  "availableSubscriptionLevelPolicies": [],
+  "uriTemplates": [
+    {
+      "uriTemplate": "/countries/{code}",
+      "httpVerb": "GET",
+      "authType": "Any",
+      "httpVerbs": [
+        "GET"
+      ],
+      "authTypes": [
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        {
+          "key": "read",
+          "name": "read",
+          "roles": "admin",
+          "description": "read test scope",
+          "id": 31
+        }
+      ],
+      "mediationScripts": {}
+    }
+  ],
+  "apiHeaderChanged": false,
+  "apiResourcePatternsChanged": false,
+  "status": "CREATED",
+  "technicalOwner": "Amado Demesa",
+  "technicalOwnerEmail": "asood.03@gmail.com",
+  "businessOwner": "Hola mundo",
+  "businessOwnerEmail": "asood.03@gmail.com",
+  "visibility": "public",
+  "endpointSecured": false,
+  "endpointAuthDigest": false,
+  "transports": "http,https",
+  "inSequence": "log_in_message",
+  "outSequence": "log_out_message",
+  "faultSequence": "debug_json_fault",
+  "advertiseOnly": false,
+  "corsConfiguration": {
+    "corsConfigurationEnabled": false,
+    "accessControlAllowOrigins": [
+      "*"
+    ],
+    "accessControlAllowCredentials": false,
+    "accessControlAllowHeaders": [
+      "authorization",
+      "Access-Control-Allow-Origin",
+      "Content-Type",
+      "SOAPAction"
+    ],
+    "accessControlAllowMethods": [
+      "GET",
+      "PUT",
+      "POST",
+      "DELETE",
+      "PATCH",
+      "OPTIONS"
+    ]
+  },
+  "endpointConfig": "{\"production_endpoints\":{\"url\":\"http://api.worldbank.org\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "responseCache": "Disabled",
+  "cacheTimeout": 300,
+  "implementation": "ENDPOINT",
+  "scopes": [],
+  "isDefaultVersion": false,
+  "isPublishedDefaultVersion": false,
+  "environments": [
+    "Production and Sandbox"
+  ],
+  "createdTime": "1551374280753",
+  "additionalProperties": {},
+  "environmentList": [
+    "PRODUCTION"
+  ],
+  "accessControl": "all",
+  "rating": 0.0,
+  "isLatest": true
+}
