@@ -10,7 +10,7 @@
   "contextTemplate": "/wb/{version}",
   "tags": [],
   "documents": [],
-  "lastUpdated": "Mar 26, 2019 4:43:51 PM",
+  "lastUpdated": "Mar 26, 2019 4:54:08 PM",
   "availableTiers": [
     {
       "name": "Bronze",
@@ -24,17 +24,6 @@
       "stopOnQuotaReached": true
     },
     {
-      "name": "Gold",
-      "displayName": "Gold",
-      "description": "Allows 5000 requests per minute",
-      "requestsPerMin": 5000,
-      "requestCount": 5000,
-      "unitTime": 1,
-      "timeUnit": "min",
-      "tierPlan": "FREE",
-      "stopOnQuotaReached": true
-    },
-    {
       "name": "Silver",
       "displayName": "Silver",
       "description": "Allows 2000 requests per minute",
@@ -42,17 +31,6 @@
       "requestCount": 2000,
       "unitTime": 1,
       "timeUnit": "min",
-      "tierPlan": "FREE",
-      "stopOnQuotaReached": true
-    },
-    {
-      "name": "Unlimited",
-      "displayName": "Unlimited",
-      "description": "Allows unlimited requests",
-      "requestsPerMin": 2147483647,
-      "requestCount": 2147483647,
-      "unitTime": 0,
-      "timeUnit": "ms",
       "tierPlan": "FREE",
       "stopOnQuotaReached": true
     }
@@ -81,7 +59,7 @@
           "name": "read",
           "roles": "admin",
           "description": "read test scope",
-          "id": 40
+          "id": 43
         }
       ],
       "mediationScripts": {}
@@ -134,11 +112,13 @@
     "Production and Sandbox"
   ],
   "createdTime": "1553640231068",
-  "additionalProperties": {},
+  "additionalProperties": {
+    "Hola": "Test"
+  },
   "environmentList": [
     "PRODUCTION"
   ],
   "accessControl": "all",
   "rating": 0.0,
-  "isLatest": false
+  "isLatest": true
 }
