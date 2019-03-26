@@ -10,7 +10,7 @@
   "contextTemplate": "/wb/{version}",
   "tags": [],
   "documents": [],
-  "lastUpdated": "Mar 26, 2019 3:58:10 PM",
+  "lastUpdated": "Mar 26, 2019 4:20:33 PM",
   "availableTiers": [
     {
       "name": "Bronze",
@@ -81,7 +81,7 @@
           "name": "read",
           "roles": "admin",
           "description": "read test scope",
-          "id": 34
+          "id": 35
         }
       ],
       "mediationScripts": {}
