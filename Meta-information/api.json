@@ -10,7 +10,7 @@
   "contextTemplate": "/wb/{version}",
   "tags": [],
   "documents": [],
-  "lastUpdated": "Mar 26, 2019 4:20:33 PM",
+  "lastUpdated": "Mar 26, 2019 4:24:11 PM",
   "availableTiers": [
     {
       "name": "Bronze",
@@ -44,17 +44,6 @@
       "timeUnit": "min",
       "tierPlan": "FREE",
       "stopOnQuotaReached": true
-    },
-    {
-      "name": "Unlimited",
-      "displayName": "Unlimited",
-      "description": "Allows unlimited requests",
-      "requestsPerMin": 2147483647,
-      "requestCount": 2147483647,
-      "unitTime": 0,
-      "timeUnit": "ms",
-      "tierPlan": "FREE",
-      "stopOnQuotaReached": true
     }
   ],
   "availableSubscriptionLevelPolicies": [],
@@ -81,7 +70,7 @@
           "name": "read",
           "roles": "admin",
           "description": "read test scope",
-          "id": 35
+          "id": 36
         }
       ],
       "mediationScripts": {}
