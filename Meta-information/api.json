@@ -4,13 +4,13 @@
     "apiName": "WorldBank",
     "version": "1.0.0"
   },
-  "uuid": "49f5d265-0962-4a3a-bbc4-8c01a5b720f8",
+  "uuid": "abfb65a1-2d57-4fec-944d-b7aa9ad4fc75",
   "type": "HTTP",
   "context": "/wb/1.0.0",
   "contextTemplate": "/wb/{version}",
   "tags": [],
   "documents": [],
-  "lastUpdated": "Mar 26, 2019 4:32:05 PM",
+  "lastUpdated": "Mar 26, 2019 4:43:51 PM",
   "availableTiers": [
     {
       "name": "Bronze",
@@ -81,7 +81,7 @@
           "name": "read",
           "roles": "admin",
           "description": "read test scope",
-          "id": 38
+          "id": 40
         }
       ],
       "mediationScripts": {}
@@ -133,12 +133,12 @@
   "environments": [
     "Production and Sandbox"
   ],
-  "createdTime": "1551374280753",
+  "createdTime": "1553640231068",
   "additionalProperties": {},
   "environmentList": [
     "PRODUCTION"
   ],
   "accessControl": "all",
   "rating": 0.0,
-  "isLatest": true
+  "isLatest": false
 }
