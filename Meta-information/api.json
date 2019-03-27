@@ -10,7 +10,7 @@
   "contextTemplate": "/wb/{version}",
   "tags": [],
   "documents": [],
-  "lastUpdated": "Mar 26, 2019 4:54:08 PM",
+  "lastUpdated": "Mar 27, 2019 11:15:48 AM",
   "availableTiers": [
     {
       "name": "Bronze",
@@ -59,7 +59,7 @@
           "name": "read",
           "roles": "admin",
           "description": "read test scope",
-          "id": 43
+          "id": 44
         }
       ],
       "mediationScripts": {}
@@ -72,6 +72,8 @@
   "technicalOwnerEmail": "asood.03@gmail.com",
   "businessOwner": "Hola mundo",
   "businessOwnerEmail": "asood.03@gmail.com",
+  "productionMaxTps": "20",
+  "sandboxMaxTps": "10",
   "visibility": "public",
   "endpointSecured": false,
   "endpointAuthDigest": false,
