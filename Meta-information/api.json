@@ -10,7 +10,7 @@
   "contextTemplate": "/wb/{version}",
   "tags": [],
   "documents": [],
-  "lastUpdated": "Mar 27, 2019 11:15:48 AM",
+  "lastUpdated": "Mar 27, 2019 1:37:19 PM",
   "availableTiers": [
     {
       "name": "Bronze",
@@ -59,7 +59,7 @@
           "name": "read",
           "roles": "admin",
           "description": "read test scope",
-          "id": 44
+          "id": 45
         }
       ],
       "mediationScripts": {}
@@ -115,6 +115,7 @@
   ],
   "createdTime": "1553640231068",
   "additionalProperties": {
+    "New": "nueva prop",
     "Hola": "Test"
   },
   "environmentList": [
