@@ -14,7 +14,7 @@
     "monex"
   ],
   "documents": [],
-  "lastUpdated": "Mar 28, 2019 2:32:17 PM",
+  "lastUpdated": "Mar 28, 2019 3:15:23 PM",
   "availableTiers": [
     {
       "name": "Bronze",
@@ -95,7 +95,7 @@
           "name": "read",
           "roles": "admin",
           "description": "read test scope",
-          "id": 58
+          "id": 61
         }
       ],
       "mediationScripts": {}
@@ -110,7 +110,8 @@
   "businessOwnerEmail": "asood.03@gmail.com",
   "productionMaxTps": "20",
   "sandboxMaxTps": "10",
-  "visibility": "public",
+  "visibility": "restricted",
+  "visibleRoles": "admin",
   "endpointSecured": true,
   "endpointAuthDigest": false,
   "endpointUTUsername": "admin",
@@ -160,7 +161,8 @@
     "SANDBOX",
     "PRODUCTION"
   ],
-  "accessControl": "all",
+  "accessControl": "restricted",
+  "accessControlRoles": "admin",
   "rating": 0.0,
   "isLatest": true
 }
