@@ -16,5 +16,14 @@
     "lastUpdated": "Mar 28, 2019 1:04:13 PM",
     "filePath": "Ballerina-Language-Specification-WD-2018-05-01.pdf",
     "otherTypeName": "Specs"
+  },
+  {
+    "id": "0d2036b9-5f2a-462a-a58f-751678ead1ea",
+    "type": "HOWTO",
+    "name": "How to URL",
+    "summary": "Test",
+    "sourceType": "URL",
+    "sourceUrl": "https://github.com/ADemesaA/WorldBank/tree/dev",
+    "lastUpdated": "Mar 28, 2019 1:11:31 PM"
   }
 ]
