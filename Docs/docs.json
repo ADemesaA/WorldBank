@@ -1,0 +1,20 @@
+[
+  {
+    "id": "93b1ca25-aed6-47ad-9f47-7cab48a669e6",
+    "type": "HOWTO",
+    "name": "How to",
+    "summary": "Hola mundo",
+    "sourceType": "INLINE",
+    "lastUpdated": "Mar 28, 2019 1:02:39 PM"
+  },
+  {
+    "id": "de3eef1e-ce81-44e6-aeae-d2d541e44a8c",
+    "type": "OTHER",
+    "name": "Language Specs",
+    "summary": "Language Specs summary",
+    "sourceType": "FILE",
+    "lastUpdated": "Mar 28, 2019 1:04:13 PM",
+    "filePath": "Ballerina-Language-Specification-WD-2018-05-01.pdf",
+    "otherTypeName": "Specs"
+  }
+]
