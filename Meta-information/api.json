@@ -5,12 +5,16 @@
     "version": "1.0.0"
   },
   "uuid": "abfb65a1-2d57-4fec-944d-b7aa9ad4fc75",
+  "description": "description de la API",
   "type": "HTTP",
   "context": "/wb/1.0.0",
   "contextTemplate": "/wb/{version}",
-  "tags": [],
+  "tags": [
+    "test",
+    "monex"
+  ],
   "documents": [],
-  "lastUpdated": "Mar 28, 2019 1:11:40 PM",
+  "lastUpdated": "Mar 28, 2019 2:27:39 PM",
   "availableTiers": [
     {
       "name": "Bronze",
@@ -91,7 +95,7 @@
           "name": "read",
           "roles": "admin",
           "description": "read test scope",
-          "id": 52
+          "id": 55
         }
       ],
       "mediationScripts": {}
@@ -135,7 +139,7 @@
       "OPTIONS"
     ]
   },
-  "endpointConfig": "{\"production_endpoints\":{\"url\":\"http://api.worldbank.org\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "endpointConfig": "{\"production_endpoints\":{\"url\":\"http://api.worldbank.org\",\"config\":null,\"template_not_supported\":false},\"sandbox_endpoints\":{\"url\":\"http://api.worldbank.org\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
   "responseCache": "Disabled",
   "cacheTimeout": 300,
   "implementation": "ENDPOINT",
@@ -151,6 +155,7 @@
     "Hola": "Test"
   },
   "environmentList": [
+    "SANDBOX",
     "PRODUCTION"
   ],
   "accessControl": "all",

@@ -35,7 +35,8 @@
   },
   "info": {
     "title": "WorldBank",
-    "version": "1.0.1"
+    "version": "1.0.1",
+    "description": "description de la API"
   },
   "x-wso2-security": {
     "apim": {
