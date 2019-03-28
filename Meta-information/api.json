@@ -14,7 +14,7 @@
     "monex"
   ],
   "documents": [],
-  "lastUpdated": "Mar 28, 2019 2:27:39 PM",
+  "lastUpdated": "Mar 28, 2019 2:32:17 PM",
   "availableTiers": [
     {
       "name": "Bronze",
@@ -95,7 +95,7 @@
           "name": "read",
           "roles": "admin",
           "description": "read test scope",
-          "id": 55
+          "id": 58
         }
       ],
       "mediationScripts": {}
@@ -111,8 +111,10 @@
   "productionMaxTps": "20",
   "sandboxMaxTps": "10",
   "visibility": "public",
-  "endpointSecured": false,
+  "endpointSecured": true,
   "endpointAuthDigest": false,
+  "endpointUTUsername": "admin",
+  "endpointUTPassword": "",
   "transports": "http,https",
   "inSequence": "log_in_message",
   "outSequence": "log_out_message",
