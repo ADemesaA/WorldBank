@@ -14,7 +14,7 @@
     "monex"
   ],
   "documents": [],
-  "lastUpdated": "Mar 28, 2019 3:15:48 PM",
+  "lastUpdated": "Apr 9, 2019 3:10:31 PM",
   "availableTiers": [
     {
       "name": "Bronze",
@@ -53,27 +53,6 @@
   "availableSubscriptionLevelPolicies": [],
   "uriTemplates": [
     {
-      "uriTemplate": "/moco",
-      "httpVerb": "GET",
-      "authType": "Any",
-      "httpVerbs": [
-        "GET"
-      ],
-      "authTypes": [
-        "Any"
-      ],
-      "throttlingConditions": [],
-      "throttlingTier": "Unlimited",
-      "throttlingTiers": [
-        "Unlimited"
-      ],
-      "mediationScript": "null",
-      "scopes": [
-        null
-      ],
-      "mediationScripts": {}
-    },
-    {
       "uriTemplate": "/countries/{code}",
       "httpVerb": "GET",
       "authType": "Any",
@@ -95,7 +74,7 @@
           "name": "read",
           "roles": "admin",
           "description": "read test scope",
-          "id": 62
+          "id": 338
         }
       ],
       "mediationScripts": {}
